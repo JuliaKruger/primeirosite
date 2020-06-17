@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Exemplos HTML</title>
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="javascript.html">JavaScript</a></li>
+        </ul>
+    </header>
+    <main id="conteudo">
+        <!--Exemplos de Formatação de Texto-->
+        <h2 id="formatacao">Exemplos de Formatação de Texto</h2>
+        <ul>
+            <li>
+                <b>texto negrito</b> - <code>&lt;b&gt;texto negrito&lt;/b&gt;</code>
+            </li>
+            <li>
+                <strong>texto forte</strong> - <code>&lt;strong&gt;texto forte&lt;/strong&gt;</code>
+            </li>
+            <li>
+                <em>texto enfatizado</em> - <code>&lt;em&gt;texto enfatizado&lt;/em&gt;</code>
+            </li>
+            <li>
+                <i>texto italico</i> - <code>&lt;i&gt;texto italico&lt;/i&gt;</code>
+            </li>
+            <li>
+                <mark>texto grifado</mark> - <code>&lt;mark&gt;texto grifado&lt;/mark&gt;</code>
+            </li>
+            <li>
+                <big>texto grande</big> - <code>&lt;big&gt;texto grande&lt;/big&gt;</code>
+            </li>
+            <li>
+                <small>texto pequeno</small> - <code>&lt;small&gt;texto pequeno&lt;/small&gt;</code>
+            </li>
+            <li>
+                <del>texto taxado</del> - <code>&lt;del&gt;texto taxado&lt;/del&gt;</code>
+            </li>
+            <li>
+                <ins>texto inserido</ins> - <code>&lt;ins&gt;texto inserido&lt;/ins&gt;</code>
+            </li>
+            <li>
+                <u>texto sublinhado</u> - <code>&lt;u&gt;texto sublinhado&lt;/u&gt;</code>
+            </li>
+            <li>
+                esse é um<sub>texto subscrito</sub> - <code>&lt;sub&gt;texto subscrito&lt;/sub&gt;</code>
+            </li>
+            <li>
+                esse é um<sup>texto sobreecrito</sup> - <code>&lt;sup&gt;texto sobreescrito&lt;/sup&gt;</code>
+            </li>
+        </ul>
+
+        <!--Exemplos de listas-->
+        <h2>Exemplos de listas</h2>
+        <b>Lista não classificada:</b>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        - <code>&lt;ul&gt;</code><br>
+        - <code>&lt;li&gt;item 1&lt;/li&gt;</code><br>
+        - <code>&lt;li&gt;item 2&lt;/li&gt;</code><br>
+        - <code>&lt;li&gt;item 3&lt;/li&gt;</code><br>
+        - <code>&lt;/ul&gt;</code><br>
+        <br><br>
+
+        <b>Lista classificada:</b>
+        <ol>
+            <li>item 1</li>
+            <ul>
+                <li>primeiro item</li>
+                <li>segundo item</li>
+                <li>terceiro item</li>
+            </ul>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+        - <code>&lt;ol&gt;</code><br>
+        - <code>&lt;li&gt;item 1&lt;/li&gt;</code><br>
+        - <code>&lt;li&gt;item 2&lt;/li&gt;</code><br>
+        - <code>&lt;li&gt;item 3&lt;/li&gt;</code><br>
+        - <code>&lt;/ol&gt;</code><br>
+        <br><br>
+
+        <b>Lista de definição:</b>
+        <dl>
+            <dt>titulo da lista</dt>
+            <dd>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi aliquam architecto,
+                quisquam
+                culpa illo ad neque, porro accusamus maxime deleniti in? Harum autem tenetur exercitationem voluptatum
+                porro
+                molestias ex!
+            </dd>
+
+            <dt>navegador</dt>
+            <dd>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit voluptatum repellat, iste illum
+                aliquid quisquam quam ipsa quis nam ullam ea vel ut dicta, mollitia distinctio? Mollitia, repellat nam.
+            </dd>
+        </dl>
+
+        - <code>&lt;dl&gt;</code><br>
+        - <code>&lt;dt&gt;titulo da lista&lt;/dt&gt;</code><br>
+        - <code>&lt;dd&gt;Lorem...&lt;/dd&gt;</code><br>
+        - <code>&lt;dt&gt;navegador&lt;/dt&gt;</code><br>
+        - <code>&lt;dd&gt;Lorem...&lt;/dd&gt;</code><br>
+        - <code>&lt;/dl&gt;</code><br>
+        <br><br>
+
+        <!--Exemplos de links-->
+        <h2>Exemplos de links</h2>
+        <!--link para outro site-->
+        <b>Abrir a página em uma nova aba do navegador:</b>
+        <p>
+            <!--o atributo target="_blank" abre a pagina em uma nova aba do navegador-->
+            Visite o site da <a href="https://www.proway.com.br/" target="_blank">Proway</a>
+        </p>
+        <code>Visite o site da &lt;a href="https://www.proway.com.br/" target="_blank"&gt;Proway&lt;/a&gt;</code><br><br>
+
+        <!--link para um bookmark da própria página-->
+        <b>Ir para um bookmark da própria página:</b>
+        <p>
+            vá até a área de exemplos de <a href="#formatacao">formatação</a>
+        </p>
+        <code>vá até a área de exemplos de &lt;a href="#formatacao"&gt;formatação&lt;/a&gt;</code><br><br>
+
+        <!--link para um bookmark de outra página-->
+        <b>Ir para um bookmark de outra página:</b>
+        <p>
+            na sessão <a href="http://serasa.proway.com.br/#faq" target="_blank">perguntas frequentes</a> do projeto
+            serasa
+            da proway você encontra as respostas para suas perguntas.
+        </p>
+        <code>na sessão &lt;a href="http://serasa.proway.com.br/#faq" target="_blank"&gt;perguntas frequentes&lt;/a&gt; do projeto serasa da proway você encontra as respostas para suas perguntas.</code><br><br>
+
+        <!--link para uma página do próprio site-->
+        <b>Abrir uma página no próprio site:</b>
+        <p>
+            a descrição do curso se encontra na <a href="../index.html">página principal</a> deste site.
+        </p>
+        <code>a descrição do curso se encontra na &lt;a href="..//index.html"&gt;página principal&lt;/a&gt; deste site.</code><br><br>
+        <p>
+            <!--link em uma imagem/figura-->
+            <b>Link em uma imagem/figura:</b>
+        <figure>
+            <a href="https://pt.wikipedia.org/wiki/COBOL">
+                <img src="../img/cobol.png" alt="dinossauro" width=100>
+            </a>
+
+        </figure>
+        <code>&lt;figure&gt;<br>
+            &lt;a href="https://pt.wikipedia.org/wiki/COBOL"&gt;<br>
+            &lt;img src="../img/cobol.png" alt="dinossauro" width=100&gt;<br>
+            &lt;/a&gt;<br>
+            &lt;/figure&gt;<br>
+        </code><br><br>
+
+        <!-- link para E-mail-->
+        <b>Link para E-mail:</b>
+        <p>
+            Gostou de nossa oferta? entre em <a
+                href="mailto:ivan.borchardt.cobol@gmail.com?subject=Contato&body=estou entrando em contato referente a oferta">contato</a>!
+        </p>
+        <code>Gostou de nossa oferta? entre em &lt;a href="mailto:ivan.borchardt.cobol@gmail.com?subject=Contato&body=estou entrando em contato referente a oferta"&gt;contato&lt;/a&gt;!</code><br><br>
+        </p>
+
+        <h2>Exemplo de Tabelas</h2>
+
+        <!--<table border=1>
+        <tr><td>linha 1, coluna 1</td> <td>linha 1, coluna 2</td></tr>
+        <tr><td>linha 2, coluna 1</td> <td>linha 2, coluna 2</td></tr>
+
+    </table>-->
+
+        <b>Tabela com 2 linhas e 2 colunas:</b>
+
+        <table border=1 width=100%>
+            <tr>
+                <td>linha 1, coluna 1</td>
+                <td>linha 1, coluna 2</td>
+            </tr>
+            <tr>
+                <td>linha 2, coluna 1</td>
+                <td>linha 2, coluna 2</td>
+            </tr>
+        </table>
+
+        <code>&lt;table border=1 width=100%&gt;<br>
+    &lt;tr&gt;<br>
+    &lt;td&gt;linha 1, coluna 1&lt;/td&gt;<br>
+    &lt;td&gt;linha 2, coluna 1&lt;/td&gt;<br>
+    &lt;/tr&gt;<br>
+    &lt;tr&gt;<br>
+    &lt;td&gt;linha 2, coluna 1&lt;/td&gt;<br>
+    &lt;td&gt;linha 2, coluna 2&lt;/td&gt;<br>
+    &lt;/tr&gt;<br>
+    &lt;/table&gt;</code><br><br>
+
+        <!--tabela com 2 linhas de dados, 1 linha de cabeçalho e 2 colunas-->
+        <b>Tabela com 2 linhas de dados, 1 linha de cabeçalho e 2 colunas:</b>
+        <table border=1 width=100%>
+            <tr>
+                <th>cabeçalho 1</th>
+                <th>cabeçalho 2</th>
+            </tr>
+            <tr>
+                <td>
+                    <center>linha 1, coluna 1</center>
+                </td>
+                <td align="right">linha 1, coluna 2</td>
+            </tr>
+            <tr>
+                <td>linha 2, coluna 1</td>
+                <td>linha 2, coluna 2</td>
+            </tr>
+        </table>
+
+        <code>&lt;table border=1 width=100%&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;th&gt;cabeçalho 1&lt;/th&gt;<br>
+        &lt;th&gt;cabeçalho 2&lt;/th&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;&lt;center&gt;linha 1, coluna 1&lt;/center&gt;&lt;/td&gt;<br>
+        &lt;td align="right"&gt;linha 1, coluna 2&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;linha 2, coluna 1&lt;/td&gt;<br>
+        &lt;td&gt;linha 2, coluna 2&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/table&gt;
+    </code><br><br>
+
+        <!--tabela com exemplo de colunas mescladas usando colspan-->
+        <b>Tabela com exemplo de colunas mescladas usando colspan:</b>
+        <table border=1>
+            <tr>
+                <th>coluna 1</th>
+                <th>coluna 2</th>
+                <th>coluna 3</th>
+            </tr>
+            <tr>
+                <td> linha 1, coluna 1</td>
+                <td> linha 1, coluna 2</td>
+                <td> linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <td colspan="2"> linha 2, coluna 1</td>
+                <td> linha 2, coluna 2</td>
+
+            </tr>
+        </table>
+
+        <code>&lt;table border=1&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;th&gt;coluna 1&lt;/th&gt;<br>
+        &lt;th&gt;coluna 2&lt;/th&gt;<br>
+        &lt;th&gt;coluna 3&lt;/th&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt; linha 1, coluna 1&lt;/td&gt;<br>
+        &lt;td&gt; linha 1, coluna 2&lt;/td&gt;<br>
+        &lt;td&gt; linha 1, coluna 3&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td colspan="2"&gt; linha 2, coluna 1&lt;/td&gt;<br>
+        &lt;td&gt; linha 2, coluna 2&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/table&gt;</code><br><br>
+
+        <!--tabela com exemplo de linhas mescladas usando rowspan-->
+        <b>Tabela com exemplo de linhas mescladas usando rowspan:</b>
+        <table border=1>
+            <tr>
+                <th>coluna 1</th>
+                <th>coluna 2</th>
+                <th>coluna 3</th>
+            </tr>
+            <tr>
+                <td rowspan=2> linha 1, coluna 1</td>
+                <td> linha 1, coluna 2</td>
+                <td> linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <td> linha 2, coluna 1</td>
+                <td> linha 2, coluna 2</td>
+            </tr>
+        </table>
+
+        <code>&lt;table border=1&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;th&gt;coluna 1&lt;/th&gt;<br>
+        &lt;th&gt;coluna 2&lt;/th&gt;<br>
+        &lt;th&gt;coluna 3&lt;/th&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td rowspan=2&gt; linha 1, coluna 1&lt;/td&gt;<br>
+        &lt;td&gt; linha 1, coluna 2&lt;/td&gt;<br>
+        &lt;td&gt; linha 1, coluna 3&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt; linha 2, coluna 1&lt;/td&gt;<br>
+        &lt;td&gt; linha 2, coluna 2&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/table&gt;</code><br><br>
+
+        <!--tabela completa exemplo-->
+        <b>Exemplo de tabela completa:</b>
+        <center>
+            <table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" align="left">
+                <caption><strong><i>Nota Fria Papelaria</i></strong></caption>
+                <thead>
+                    <tr>
+                        <th width=50% height="75">quantidade</th>
+                        <th>descrição</th>
+                        <th>preço unit.</th>
+                        <th>preço total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>lapis de cor</td>
+                        <td>R$5,00</td>
+                        <td>R$10,00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>caderno brochura 60fl</td>
+                        <td>R$3,00</td>
+                        <td>R$12,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"> <b>Total</b></td>
+                        <td>R$22,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </center>
+        <br><br><br><br><br><br><br><br><br>
+
+        <code>&lt;center&gt;<br>
+        &lt;table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" align="left"&gt;<br>
+        &lt;caption&gt;&lt;strong&gt;&lt;i&gt;Nota Fria Papelaria&lt;/i&gt;&lt;/strong&gt;&lt;/caption&gt;<br>
+        &lt;thead&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;th width=50% height="75"&gt;quantidade&lt;/th&gt;<br>
+        &lt;th&gt;descrição&lt;/th&gt;<br>
+        &lt;th&gt;preço unit.&lt;/th&gt;<br>
+        &lt;th&gt;preço total&lt;/th&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/thead&gt;<br>
+        &lt;tbody&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;2&lt;/td&gt;<br>
+        &lt;td&gt;lapis de cor&lt;/td&gt;<br>
+        &lt;td&gt;R$5,00&lt;/td&gt;<br>
+        &lt;td&gt;R$10,00&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;4&lt;/td&gt;<br>
+        &lt;td&gt;caderno brochura 60fl&lt;/td&gt;<br>
+        &lt;td&gt;R$3,00&lt;/td&gt;<br>
+        &lt;td&gt;R$12,00&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/tbody&gt;<br>
+        &lt;tfoot&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td colspan="3"&gt; &lt;b&gt;Total&lt;/b&gt;&lt;/td&gt;<br>
+        &lt;td&gt;R$22,00&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/tfoot&gt;<br>
+        &lt;/table&gt;<br>
+        &lt;/center&gt;
+    </code><br><br>
+    </main>
+
+    <footer id="rodape">
+        <p>
+            Voltar para a <a href="../index.html">página principal</a> deste site.
+        </p>
+    </footer>
+</body>
+
+</html>
